@@ -1,0 +1,19 @@
+/* tag */
+article{
+    background-color: gainsboro;
+}
+/* classe */
+.fonte{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.corfundo{
+    background-color: aqua; font-size: 40px;
+}
+/* id */
+#id2 {
+    background-color: blanchedalmond;
+}
+/* tag = serve para mudar todos os elementos do mesmo tipo */
+/* id = indexação - UM elemento */
+/* classe = seleção de vários elementos */
