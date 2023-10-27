@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    width: 100px;
+    height: 100px;
+    grid-template-areas:
+    "item1 item1"
+    "item2 item2" ;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px;
+    border: 1px solid black
+}
+.item1{
+    grid-area: item1;
+    background-color: red;
+    border: 1px solid black
+}
+
+.item2{
+    grid-area: item2;
+    background-color: #8cffa0;
+    border: 1px solid black
+}
